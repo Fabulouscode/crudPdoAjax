@@ -10,9 +10,9 @@
 		$firstname = $_POST['firstname'];
 		$lastname = $_POST['lastname'];
 		$address = $_POST['address'];
-		$email = $_POST['email'];
+		
 
-		$sql = "UPDATE members SET firstname = '$firstname', lastname = '$lastname', address = '$address' , email = '$email' WHERE id = '$id'";
+		$sql = "UPDATE members SET firstname = '$firstname', lastname = '$lastname', address = '$address' WHERE id = '$id'";
 		//if-else statement in executing our query
 		if($db->exec($sql)){
 			$output['message'] = 'Member updated successfully';
