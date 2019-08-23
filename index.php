@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Ajax CRUD Operation using PDO</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
@@ -32,7 +32,7 @@
 <!-- Modals -->
 <?php include('modal.html'); ?>
 <script src="jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
